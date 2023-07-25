@@ -1,0 +1,24 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+    background-color: cadetblue;
+    padding: 20px;
+    text-align: center;
+}
+
+header li
+{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header a
+{
+    text-decoration: none;
+    color: white;
+}

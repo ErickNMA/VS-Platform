@@ -1,0 +1,123 @@
+input[type=range] 
+{
+    height: 30px;
+    -webkit-appearance: none;
+    width: 600px;
+}
+
+input[type=range]::-webkit-slider-runnable-track 
+{
+    width: 600px;
+    height: 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000;
+    background: #B6B6B6;
+    border-radius: 25px;
+    border: 1px solid #8A8A8A;
+}
+
+input[type=range]::-webkit-slider-thumb 
+{
+    box-shadow: 1px 1px 1px #828282;
+    border: 1px solid #8A8A8A;
+    height: 100px;
+    width: 150px;
+    border-radius: 30px;
+    background: #DADADA;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -38px;
+}
+
+.s1
+{
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    rotate: -90deg;
+}
+.s2
+{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    rotate: -90deg;
+}
+.s3
+{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    rotate: -90deg;
+}
+.s4
+{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    rotate: -90deg;
+}
+.s5
+{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    rotate: -90deg;
+}
+.s6
+{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    rotate: -90deg;
+}
+.s7
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    rotate: -90deg;
+}
+.s8
+{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    rotate: -90deg;
+}
+.s9
+{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    rotate: -90deg;
+}
+
+.b1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.b2
+{
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.track1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sdlabel
+{
+    position: absolute;
+    top: 10px;
+    left: -50px;
+    rotate: 90deg;
+    background-color: #9d9d9d;
+}
